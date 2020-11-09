@@ -17,11 +17,11 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <Button onClick={this.plus} label="plus" />
         <p>{this.state.number}</p>
         <Button onClick={this.minus} label="minus" />
-      </div>
+      </>
     );
   }
 }
